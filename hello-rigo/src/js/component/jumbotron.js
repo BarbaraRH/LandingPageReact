@@ -1,4 +1,5 @@
 import React from "react";
+import "./jumbotron.css";
 
 //create your first component
 const Jumbotron = () => {
