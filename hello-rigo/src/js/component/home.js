@@ -3,6 +3,7 @@ import React from "react";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Navbar } from "./navbar";
+import Jumbotron from "./jumbotron";
 import { Footer } from "./footer";
 //create your first component
 export class Home extends React.Component {
@@ -11,18 +12,7 @@ export class Home extends React.Component {
 			<div>
 				<div className="container">
 					<Navbar />
-					<header className="jumbotron my-4">
-						<h1 className="display-3">A Warm Welcome!</h1>
-						<p className="lead">
-							Lorem ipsum dolor sit amet, consectetur adipisicing
-							elit. Ipsa, ipsam, eligendi, in quo sunt possimus
-							non incidunt odit vero aliquid similique quaerat nam
-							nobis illo aspernatur vitae fugiat numquam repellat.
-						</p>
-						<a href="#" className="btn btn-primary btn-lg">
-							Call to action!
-						</a>
-					</header>
+					<Jumbotron />
 
 					<div className="row text-center">
 						<div className="col-lg-3 col-md-6 mb-4">
